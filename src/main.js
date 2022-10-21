@@ -19,7 +19,7 @@ function setCardType(type) {
 //Security code
 const securityCode = document.getElementById('security-code')
 const securityCodePattern = {
-  mask: '000'
+  mask: '011'
 }
 const securityCodeMasked = IMask(securityCode, securityCodePattern)
 
